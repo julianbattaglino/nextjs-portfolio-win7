@@ -15,7 +15,7 @@ const ProjectDetails = ({ project }) => {
         <title>{project.name}</title>
       </Head>
 
-      <div className="p-4">
+      <div className="p-2">
         <div className="title-bar">
           <div className="title-bar-text">{project.name}</div>
           <div className="title-bar-controls">

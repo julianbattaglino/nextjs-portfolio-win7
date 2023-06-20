@@ -8,7 +8,7 @@ const AboutMe = () => {
             <Head>
                 <title>About Me - Julian Battaglino</title>
             </Head>
-            <div className="p-6">
+            <div className="p-2">
                 <div className="window active">
                     <div className="title-bar">
                         <div className="title-bar-text">C:AboutMe</div>

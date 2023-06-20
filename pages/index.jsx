@@ -14,7 +14,7 @@ const HomePage = () => {
             </Head>
 
             {/* Windows 7 Top Bar */}
-            <div className="p-6">
+            <div className="p-2">
                 <div className="window active">
                     <div className="title-bar">
                         <div className="title-bar-text">C:\</div>
