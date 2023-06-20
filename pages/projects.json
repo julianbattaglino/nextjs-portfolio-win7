@@ -1,0 +1,58 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Fetch Data From Google Sheet",
+            "extract": "Simple example for fetching data from Google Sheet",
+            "description": "Simple example for fetching data from Google Sheet, using paparse",
+            "location": "",
+            "category": "JavaScript",
+            "image": "/portfolio/google-sheet-fetch.webp"
+        },
+        {
+            "id": "2",
+            "name": "React.js Marcelo Kopp",
+            "extract": "React.js e-commerce - Marcelo Kopp.",
+            "description": "React.js e-commerce - Marcelo Kopp.",
+            "location": "",
+            "category": "React.js",
+            "image": "/portfolio/react-eccomerce-marcelo-kopp.webp"
+        },
+        {
+            "id": "3",
+            "name": "High Fidelity Store",
+            "extract": "Vanilla js e-commerce whatsapp checkout order",
+            "description": "Vanilla js e-commerce whatsapp checkout order",
+            "location": "",
+            "category": "JavaScript",
+            "image": "/portfolio/high-fidelity-store.webp"
+        },
+        {
+            "id": "4",
+            "name": "Movimiento Evita Interactive Map",
+            "extract": "Lefleat.js interactive map whit layers & filters",
+            "description": "Lefleat.js interactive map whit layers & filters. Wp rest api.",
+            "location": "React.js",
+            "category": "JavaScript",
+            "image": "/portfolio/movimiento-evita-azul.webp"
+        },
+        {
+            "id": "5",
+            "name": "Nublose Weather - Next.js App",
+            "extract": "Next.js Weather webapp",
+            "description": "Next.js webapp development, to get weather data from arest api. You can search anywhere in the world. data is consumed from the https://api.openweathermap.org api",
+            "location": "",
+            "category": "Next.js",
+            "image": "/portfolio/weather-app.webp"
+        },
+        {
+            "id": "6",
+            "name": "Quotes - Next.js App",
+            "extract": "Next.js Quotes webapp",
+            "description": "",
+            "location": "",
+            "category": "Next.js",
+            "image": "/portfolio/quotes.webp"
+        }
+    ]
+}

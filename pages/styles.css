@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+}
+
+.main {
+    padding: 75px;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+
+.max-width {
+    max-width: 350px;
+}
+
+.items-grid {
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.grid-img {
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-title {
+    font-size: 22px;
+    margin-top: 10px !important;
+}
+
+ul.tree-view {
+    padding: 6px 0px 6px 0px !important;
+}
+
+ul [role="menuitem"] a {
+    color: #333 !important;
+}
+
+ul[role=menubar]>[role=menuitem]:focus, ul[role=menubar]>[role=menuitem]:focus-within, ul[role=menubar]>[role=menuitem]:hover {
+    background: transparent !important;
+    outline: none;
+    color: #333 !important;
+}
+
+.avatar{ 
+    width: 75px;
+}
