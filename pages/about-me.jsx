@@ -19,9 +19,11 @@ const AboutMe = () => {
                         </div>
                     </div>
                     <div className="window-body has-space">
-                        <div className="icono-archivo icono-jpg">
+                        <div className="flex justify-center">
                             <img className="avatar" src="julian-battaglino.webp" alt="Icono JPG" />
-                            <span>julian-battaglino.jpg</span>
+                        </div>
+                        <div className="flex justify-center">
+                            <span className="pt-2">julian-battaglino.jpg</span>
                         </div>
                     </div>
                 </div>

@@ -26,7 +26,7 @@ const ProjectDetails = ({ project }) => {
         </div>
 
         <div className="pt-4">
-          <Link href="/">
+          <Link href="/projects">
             <button className="btn btn-sm gap-2">
               Back to projects
             </button>
