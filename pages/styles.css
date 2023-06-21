@@ -87,7 +87,6 @@ span.underline-nice {
     cursor: pointer;
 }
 .main-title {
-    font-family: 'Chewy', cursive;
     font-weight: 400;
     font-size: 72px;
     color: #333;
@@ -99,7 +98,6 @@ span.underline-nice {
     -webkit-text-fill-color: transparent;*/
 }
 .subtitle {
-    font-family: 'Chewy', cursive;
     font-size: 48px;
     color: #333;
     display: flex;
