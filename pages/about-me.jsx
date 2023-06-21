@@ -78,7 +78,7 @@ const AboutMe = () => {
                             </div>
                             <div className="window-body has-space">
                                 <Image className="m-auto" src="/julian-battaglino.webp" alt="Julian Battaglino - Desarrollador Web Avatar Barba" width={175} height={175} /><span className="font-bold pt-2 pb-2 flex justify-center">julianbattaglino.jpg</span>
-                                <p>This is me, in cartoon form, lookin all dapper and classy! Take a good look at this polished and elegant caricature, cause its a once-in-a-lifetime opportunity, folks! Dont miss out!"</p>
+                                <p>This is me, in cartoon form, lookin all dapper and classy! Take a good look at this polished and elegant caricature, cause its a once-in-a-lifetime opportunity, folks! Dont miss out!.</p>
                                 <div className="modal-action">
                                     {/* if there is a button in form, it will close the modal */}
 
