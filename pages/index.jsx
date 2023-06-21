@@ -3,12 +3,6 @@ import Head from 'next/head';
 import { SiGithub, SiLinkedin } from "react-icons/si";
 import { ImFilePdf } from "react-icons/im";
 import Link from 'next/link';
-import { Chewy } from 'next/font/google';
-
-const chewy = Chewy({ 
-    weight: ['400'],
-    subsets: ['latin'] 
-})
 
 const HomePage = () => {
 
@@ -33,8 +27,8 @@ const HomePage = () => {
                     {/* Windows 7 Body Content */}
                     <div className="window-body has-space">
                         <div className="intro-container">
-                            <h1 className={`main-title pt-5 ${chewy.className}`}><span className="underline-nice">Julian Battaglino</span></h1>
-                            <h2 className={`subtitle ${chewy.className}`}>Front End Developer</h2>
+                            <h1 className="main-title pt-5"><span className="underline-nice">Julian Battaglino</span></h1>
+                            <h2 className="subtitle">Front End Developer</h2>
                             <div className="icon-container">
                                 <Link href="https://github.com/julianbattaglino" target="_blank" rel="noreferrer" className="icon-link">
                                     <SiGithub className="icon mx-2" />
@@ -52,7 +46,7 @@ const HomePage = () => {
 
                         {/* Tech Stacks */}
                         <div className="intro-container">
-                            <h2 className={`subtitle pt-10 pb-10 ${chewy.className}`}><span className="underline-nice">Tech Stack</span></h2>
+                            <h2 className="subtitle pt-10 pb-10"><span className="underline-nice">Tech Stack</span></h2>
                             <div className="icon-stack-container">
                                 <img className="tech-icon" src="/stack-icons/expo.png" alt="React Native, Expo CLI" />
                                 <img className="tech-icon" src="/stack-icons/react.png" alt="React.js" />
