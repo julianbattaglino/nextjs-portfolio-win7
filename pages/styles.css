@@ -171,7 +171,7 @@ img.avatar {
 
 @media (max-width: 768px) {
     .intro-container {
-        padding: 25px 25px;
+        padding: 0 25px;
     }
     .main-title {
         font-size: 38px;
@@ -182,6 +182,10 @@ img.avatar {
     }
     .icon-stack-container {
         width: 100%;
+    }
+    .profile-img {
+        width: 200px;
+        height: 200px;
     }
     
 }
