@@ -43,8 +43,8 @@ const AboutMe = () => {
 
                             </div>
                             <div className="window-body has-space">
-                                <p className="font-bold"> I'll give you a brief introduction about me:</p>
-                                <p>I'm a self-taught web developer, a hands-on problem solver with a bunch of experience in different technologies. I know my way around HTML5, CSS3, SASS, SCSS, JavaScript, jQuery, React.js, Next.js, Node.js, and NPM. I'm passionate about what I do, so I use these tech tools like a boss and stay up-to-date with the latest web development trends. I'm always learning and ready to tackle new challenges in this fast-paced tech field.</p>
+                                <p className="font-bold"> a introduction about me:</p>
+                                <p>Im a self-taught web developer, a hands-on problem solver with a bunch of experience in different technologies. I know my way around HTML5, CSS3, SASS, SCSS, JavaScript, jQuery, React.js, Next.js, Node.js, and NPM. Im passionate about what I do, so I use these tech tools like a boss and stay up-to-date with the latest web development trends. Im always learning and ready to tackle new challenges in this fast-paced tech field.</p>
                                 <div className="modal-action">
                                     {/* if there is a button in form, it will close the modal */}
 
@@ -78,7 +78,7 @@ const AboutMe = () => {
                             </div>
                             <div className="window-body has-space">
                                 <Image className="m-auto" src="/julian-battaglino.webp" alt="Julian Battaglino - Desarrollador Web Avatar Barba" width={175} height={175} /><span className="font-bold pt-2 pb-2 flex justify-center">julianbattaglino.jpg</span>
-                                <p>This is me, in cartoon form, lookin' all dapper and classy! Take a good look at this polished and elegant caricature, 'cause it's a once-in-a-lifetime opportunity, folks! Don't miss out!"</p>
+                                <p>This is me, in cartoon form, lookin all dapper and classy! Take a good look at this polished and elegant caricature, cause its a once-in-a-lifetime opportunity, folks! Dont miss out!"</p>
                                 <div className="modal-action">
                                     {/* if there is a button in form, it will close the modal */}
 

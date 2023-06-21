@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p>2023 Julian Battaglino. <span className="font-bold">That's all folks!</span></p>
+                    <p>2023 Julian Battaglino. <span className="font-bold">Thats all folks!</span></p>
                 </div>
             </footer>
         </>
