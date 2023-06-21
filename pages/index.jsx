@@ -10,6 +10,7 @@ const HomePage = () => {
         <>
             <Head>
                 <title>Juli4n B4tt4glin0 | Portfolio</title>
+                <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet" />
             </Head>
 
             {/* Windows 7 Top Bar */}
