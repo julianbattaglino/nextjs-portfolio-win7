@@ -1,6 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+import { SiGithub } from "react-icons/si";
+import { GrDeploy } from "react-icons/gr";
 
 const ProjectDetails = ({ project }) => {
   console.log(project);
@@ -27,7 +29,7 @@ const ProjectDetails = ({ project }) => {
 
         <div className="pt-4">
           <Link href="/projects">
-            <button className="btn btn-sm gap-2">
+            <button className="">
               Back to projects
             </button>
           </Link>
@@ -52,6 +54,16 @@ const ProjectDetails = ({ project }) => {
               </div>
               <div className="window-body has-space">
                 <p>{project.description}</p>
+
+                <div className="pt-4">
+                  <Link href={project.deployed} target="blank">
+                    <GrDeploy className="inline w-4" /> Project deploy
+                  </Link>
+
+                  <Link className="mx-5" href={project.repo} target="blank">
+                    <SiGithub className="inline w-4" /> <span>Project repo</span>
+                  </Link>
+                </div>
               </div>
             </div>
 

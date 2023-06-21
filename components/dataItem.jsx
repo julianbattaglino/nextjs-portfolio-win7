@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 const DataItem = ({ project }) => {
+
   return (
 
     <>
@@ -28,7 +29,7 @@ const DataItem = ({ project }) => {
                 </ul>
 
                 <div className="card-actions justify-start">
-                  <button className="btn btn-sm">View Project</button>
+                  <button className="">View Project</button>
                 </div>
               </div>
             </div>
