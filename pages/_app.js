@@ -2,6 +2,7 @@ import './styles.css';
 import "7.css/dist/7.css";
 import { Inter } from 'next/font/google';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
  
 // If loading a variable font, you don't need to specify the font weight
 const inter = Inter({
@@ -14,6 +15,7 @@ export default function MyApp({ Component, pageProps }) {
     <main className={inter.className}>
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </main>
   );
 }
