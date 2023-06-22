@@ -50,6 +50,13 @@ ul.tree-view {
     padding: 6px 0px 6px 0px !important;
 }
 
+/* Menu */
+.menu-items {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
 ul [role="menuitem"] a {
     color: #333 !important;
 }
@@ -207,6 +214,9 @@ footer a {
     .profile-img {
         width: 200px;
         height: 200px;
+    }
+    .aboutme-modal {
+        max-width: 100%;
     }
 
 }
