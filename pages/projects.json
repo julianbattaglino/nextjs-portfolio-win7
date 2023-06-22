@@ -14,13 +14,13 @@
         {
             "id": "react-js-marcelo-kopp",
             "name": "React.js Marcelo Kopp",
-            "extract": "React.js e-commerce - Marcelo Kopp.",
-            "description": "React.js e-commerce - Marcelo Kopp.",
+            "extract": "React.js e-commerce - Marcelo Kopp. ",
+            "description": "React.js e-commerce - E-commerce Marcelo Kopp - Woodcut artist. Chakra UI v2.2.3 (app ui) - React Toastify V9.0.8 (alerts) - Firebase V9.9.3 (render products from firebase/firestore collections & addDoc for customer orders) - React-Router-Dom V6.3.0 (for dynamic routing in a web app)",
             "location": "",
             "category": "React.js",
             "image": "/portfolio/react-eccomerce-marcelo-kopp.webp",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "deployed": "https://react-eccomerce-marcelo-kopp.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/react-eccomerce"
         },
         {
             "id": "high-fidelity-store",
@@ -41,8 +41,8 @@
             "location": "React.js",
             "category": "JavaScript",
             "image": "/portfolio/movimiento-evita-azul.webp",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "deployed": "https://movimiento-evita-azul.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/react-movimiento-evita"
         },
         {
             "id": "nextjs-weather-app",
@@ -52,8 +52,8 @@
             "location": "",
             "category": "Next.js",
             "image": "/portfolio/weather-app.webp",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "deployed": "https://nublose-app.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/nublose-app"
         },
         {
             "id": "next-js-quotes-app",
