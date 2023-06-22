@@ -11,25 +11,28 @@ const Navbar = () => {
                     File
                     <ul role="menu">
                         <li role="menuitem">
-                            <a href="#menubar">
+                            <a href="#">
                                 Open <span>Ctrl+O</span>
                             </a>
                         </li>
                         <li role="menuitem">
-                            <a href="#menubar">
+                            <a href="#">
                                 Save <span>Ctrl+S</span>
                             </a>
                         </li>
                         <li role="menuitem" className="has-divider">
-                            <a href="#menubar">
+                            <a href="#">
                                 Save As... <span>Ctrl+Shift+S</span>
                             </a>
                         </li>
-                        <li role="menuitem"><a href="#menubar">Exit</a></li>
+                        <li role="menuitem">
+                            <a href="#">Exit
+                            </a>
+                        </li>
                     </ul>
                 </li>
 
-                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about-me">About Me</Link></li>
+                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about">About</Link></li>
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/projects">Projects</Link></li>
 
             </ul>
