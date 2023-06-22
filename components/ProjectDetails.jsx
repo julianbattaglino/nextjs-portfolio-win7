@@ -43,7 +43,7 @@ const ProjectDetails = ({ project }) => {
 
           <div className="md:col-span-2">
 
-            <div className="window active" data-aos="zoom-in">
+            <div className="window glass active" data-aos="zoom-in">
               <div className="title-bar">
                 <div className="title-bar-text">About this project: </div>
               </div>
