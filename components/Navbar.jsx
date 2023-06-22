@@ -6,8 +6,6 @@ const Navbar = () => {
             <ul role="menubar" className="can-hover">
 
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/">Home</Link></li>
-                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about-me">About Me</Link></li>
-                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/projects">Projects</Link></li>
 
                 <li role="menuitem" tabIndex="0" aria-haspopup="true">
                     File
@@ -30,6 +28,10 @@ const Navbar = () => {
                         <li role="menuitem"><a href="#menubar">Exit</a></li>
                     </ul>
                 </li>
+
+                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about-me">About Me</Link></li>
+                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/projects">Projects</Link></li>
+
             </ul>
         </>
     )

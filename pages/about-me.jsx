@@ -1,6 +1,8 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
+import { SlDoc, SlSocialLinkedin, SlSocialGithub } from "react-icons/sl";
+
 
 const AboutMe = () => {
 
@@ -22,10 +24,19 @@ const AboutMe = () => {
                     <div className="window-body has-space body-file-explorer">
                         {/* Open the modal using ID.showModal() method */}
                         <div onClick={() => window.my_modal_1.showModal()}>
-                            <Image src="/notepad.png" alt="Julian Battaglino - About Me Notepad Icon" width={64} height={64} /><span>aboutme.txt</span>
+                            <Image src="/notepad.png" alt="Julian Battaglino - About Me Notepad Icon" width={40} height={40} /><span>aboutme.txt</span>
                         </div>
                         <div onClick={() => window.my_modal_2.showModal()}>
-                            <Image className="m-auto" src="/julian-battaglinox64.webp" alt="Julian Battaglino - Desarrollador Web Avatar Barba" width={64} height={64} /><span>julianbattaglino.jpg</span>
+                            <Image className="m-auto" src="/julian-battaglinox64.webp" alt="Julian Battaglino - Desarrollador Web Avatar Barba" width={40} height={40} /><span>julianbattaglino.jpg</span>
+                        </div>
+                        <div>
+                            <SlSocialGithub className="explorer-icons m-auto" /><span>Github shortcut</span>
+                        </div>
+                        <div>
+                            <SlSocialLinkedin className="explorer-icons m-auto" /><span>linkedin shortcut</span>
+                        </div>
+                        <div>
+                            <SlDoc className="explorer-icons m-auto" /><span>Curriculum shortcut</span>
                         </div>
                     </div>
                 </div>
@@ -43,7 +54,7 @@ const AboutMe = () => {
 
                             </div>
                             <div className="window-body has-space">
-                                <p className="font-bold"> a introduction about me:</p>
+                                <p className="font-bold">A introduction about me:</p>
                                 <p>Im a self-taught web developer, a hands-on problem solver with a bunch of experience in different technologies. I know my way around HTML5, CSS3, SASS, SCSS, JavaScript, jQuery, React.js, Next.js, Node.js, and NPM. Im passionate about what I do, so I use these tech tools like a boss and stay up-to-date with the latest web development trends. Im always learning and ready to tackle new challenges in this fast-paced tech field.</p>
                                 <div className="modal-action">
                                     {/* if there is a button in form, it will close the modal */}

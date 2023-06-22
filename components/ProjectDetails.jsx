@@ -27,7 +27,7 @@ const ProjectDetails = ({ project }) => {
           </div>
         </div>
 
-        <div className="pt-4">
+        <div className="pt-4 pb-4 px-2">
           <Link href="/projects">
             <button className="">
               Back to projects
@@ -35,10 +35,10 @@ const ProjectDetails = ({ project }) => {
           </Link>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-4 bg-base-100 shadow-xl">
+        <div className="grid md:grid-cols-3 gap-4 shadow-xl p-2">
 
           <div>
-            <img className="detail-img mt-5 mb-5 card glass" src={project.image} alt={project.name} />
+            <img className="detail-img mb-5 card glass" src={project.image} alt={project.name} />
           </div>
 
           <div className="p-3 md:col-span-2">
@@ -46,13 +46,8 @@ const ProjectDetails = ({ project }) => {
             <div className="window active" >
               <div className="title-bar">
                 <div className="title-bar-text">About this project: </div>
-                <div className="title-bar-controls">
-                  <button aria-label="Minimize"></button>
-                  <button aria-label="Maximize"></button>
-                  <button aria-label="Close"></button>
-                </div>
               </div>
-              <div className="window-body has-space">
+              <div className="window-body has-space window-body-replace">
                 <p>{project.description}</p>
 
                 <div className="pt-4">

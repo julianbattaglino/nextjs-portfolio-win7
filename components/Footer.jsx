@@ -1,4 +1,4 @@
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SlSocialLinkedin, SlSocialGithub, SlSocialInstagram, SlDoc } from "react-icons/sl";
 import Link from 'next/link';
 
 const Footer = () => {
@@ -6,17 +6,23 @@ const Footer = () => {
         <>
             <footer className="footer footer-center p-4 rounded">
                 <div className="grid grid-flow-col gap-6">
-                    <a className="link link-hover">Home</a>
-                    <a className="link link-hover">About Me</a>
-                    <a className="link link-hover">Projects</a>
+                    <Link href="/" className="link link-hover">Home</Link>
+                    <Link href="/about-me" className="link link-hover">About me</Link>
+                    <Link href="/projects" className="link link-hover">Projects</Link>
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">
+                        <Link href="https://instagram.com/julianbattaglino" target="_blank" rel="noreferrer" className="icon-link">
+                            <SlSocialInstagram className="icon mx-2" />
+                        </Link>
                         <Link href="https://github.com/julianbattaglino" target="_blank" rel="noreferrer" className="icon-link">
-                            <SiGithub className="icon mx-2" />
+                            <SlSocialGithub className="icon mx-2" />
                         </Link>
                         <Link href="https://www.linkedin.com/in/julianbattaglino/" target="_blank" rel="noreferrer" className="icon-link">
-                            <SiLinkedin className="icon mx-2" />
+                            <SlSocialLinkedin className="icon mx-2" />
+                        </Link>
+                        <Link href="/cv-julian-battaglino.pdf" target="_blank" rel="noreferrer" className="icon-link">
+                            <SlDoc className="icon mx-2" />
                         </Link>
                     </div>
                 </div>

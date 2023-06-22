@@ -7,7 +7,7 @@ const DataItem = ({ project }) => {
 
     <>
       <Link href={`/project/${project.id}`}>
-        <div className="background ">
+        <div className="">
           <div className="window glass active">
             <div className="title-bar">
               <div className="title-bar-text">Project: {project.name}</div>
@@ -17,7 +17,7 @@ const DataItem = ({ project }) => {
               </div>
             </div>
 
-            <div className="window-body has-space">
+            <div className="window-body has-space window-body-replace">
               <figure>
                 <img className="grid-img" src={project.image} alt={project.name} />
               </figure>
