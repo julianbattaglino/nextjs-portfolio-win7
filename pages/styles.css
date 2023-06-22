@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-body {
-}
+
+body {}
 
 .main {
     padding: 75px;
@@ -14,8 +15,7 @@ p {
     color: #4a5568;
 }
 
-a {
-}
+a {}
 
 a:hover {
     text-decoration: none !important;
@@ -34,8 +34,9 @@ a:hover {
 .items-grid {
     grid-gap: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
+
 .grid-img {
     max-height: 300px;
     object-fit: cover;
@@ -55,7 +56,9 @@ ul [role="menuitem"] a {
     color: #333 !important;
 }
 
-ul[role=menubar]>[role=menuitem]:focus, ul[role=menubar]>[role=menuitem]:focus-within, ul[role=menubar]>[role=menuitem]:hover {
+ul[role=menubar]>[role=menuitem]:focus,
+ul[role=menubar]>[role=menuitem]:focus-within,
+ul[role=menubar]>[role=menuitem]:hover {
     background: transparent !important;
     outline: none;
     color: #333 !important;
@@ -67,13 +70,13 @@ ul[role=menubar]>[role=menuitem]:focus, ul[role=menubar]>[role=menuitem]:focus-w
 }
 
 span.underline-nice {
-    background-image: linear-gradient(120deg, rgb(98, 104, 147, 0.1) 0%, rgb(98, 104, 147, 0.1) 100%);
+    background-image: linear-gradient(120deg, rgba(98, 104, 147, 0.322) 0%, rgba(98, 104, 147, 0.322) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.3em;
     background-position: 0 80%;
     transition: background-size 0.25s ease-in;
     width: fit-content;
-  }
+}
 
 .icon-container {
     margin-top: 15px;
@@ -86,20 +89,23 @@ span.underline-nice {
     color: #333;
     cursor: pointer;
 }
+
 .main-title {
-    font-family: 'Chewy', cursive;
-    font-weight: 400;
+    font-family: 'Inter', sans-serif;
     font-size: 72px;
+    font-weight: 700;
     color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
-        /*background: linear-gradient(180deg, rgb(98, 104, 147, 1) 25%, rgb(98, 104, 147, 1) 75%);
+    /*background: linear-gradient(180deg, rgb(98, 104, 147, 1) 25%, rgb(98, 104, 147, 1) 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;*/
 }
+
 .subtitle {
-    font-family: 'Chewy', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     font-size: 48px;
     color: #333;
     display: flex;
@@ -120,7 +126,7 @@ span.underline-nice {
 
 .icon-stack-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(75px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     justify-content: center;
     align-items: center;
     row-gap: 50px;
@@ -128,6 +134,7 @@ span.underline-nice {
     width: 75%;
     margin: auto;
 }
+
 .tech-icon {
     height: auto;
     object-fit: cover;
@@ -140,13 +147,17 @@ svg {
 
 
 /* ABOUT ME PAGE */
-
 img.avatar {
     width: 100px;
 }
 
+.explorer-icons {
+    width: 40px;
+    height: 40px;
+}
+
 .aboutme-modal {
-    max-width: 320px;
+    max-width: 50%;
 }
 
 .body-file-explorer {
@@ -155,45 +166,58 @@ img.avatar {
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
-  }
-  
-  .window-body > * {
-    text-align: center;
-  }
+}
 
-  /* FOOTER */
-  footer {
+.window-body>* {
+    text-align: inherit;
+}
+
+/* PAGE PROJECTS */
+.window-body-replace {
+    background: #fff !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* FOOTER */
+footer {
     row-gap: 1.5rem !important;
-  }
-  footer a {
+}
+
+footer a {
     color: #333;
-  }
+}
 
 @media (max-width: 768px) {
     .intro-container {
         padding: 0 25px;
     }
+
     .main-title {
         font-size: 38px;
         padding-top: 50px;
     }
+
     .subtitle {
         font-size: 28px;
     }
+
     .icon-stack-container {
         width: 100%;
     }
+
     .profile-img {
         width: 200px;
         height: 200px;
     }
-    
+
 }
 
-@media (min-width: 767px) and (max-width: 1200px){
+@media (min-width: 767px) and (max-width: 1200px) {
     .main-title {
         padding-top: 50px !important;
     }
+
     .icon-stack-container {
         width: 100%;
     }
