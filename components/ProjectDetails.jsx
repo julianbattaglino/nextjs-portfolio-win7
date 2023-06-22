@@ -29,7 +29,7 @@ const ProjectDetails = ({ project }) => {
 
         <div className="pt-4 pb-4 px-2">
           <Link href="/projects">
-            <button className="">
+            <button className="" data-aos="zoom-in">
               Back to projects
             </button>
           </Link>
@@ -37,13 +37,13 @@ const ProjectDetails = ({ project }) => {
 
         <div className="grid md:grid-cols-3 gap-4 shadow-xl p-2">
 
-          <div>
+          <div data-aos="zoom-in">
             <img className="detail-img mb-5 card glass" src={project.image} alt={project.name} />
           </div>
 
-          <div className="p-3 md:col-span-2">
+          <div className="md:col-span-2">
 
-            <div className="window active" >
+            <div className="window active" data-aos="zoom-in">
               <div className="title-bar">
                 <div className="title-bar-text">About this project: </div>
               </div>
