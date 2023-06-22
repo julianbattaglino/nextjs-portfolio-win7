@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const DataItem = ({ project }) => {
 
@@ -7,7 +8,7 @@ const DataItem = ({ project }) => {
 
     <>
       <Link href={`/project/${project.id}`}>
-        <div className="">
+        <div className="" data-aos="zoom-in">
           <div className="window glass active">
             <div className="title-bar">
               <div className="title-bar-text">Project: {project.name}</div>
@@ -19,7 +20,7 @@ const DataItem = ({ project }) => {
 
             <div className="window-body has-space window-body-replace">
               <figure>
-                <img className="grid-img" src={project.image} alt={project.name} />
+                <Image className="grid-img" src={project.image} alt={project.name} />
               </figure>
               <div className="card-body p-0">
 
