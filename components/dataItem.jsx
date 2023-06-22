@@ -20,7 +20,7 @@ const DataItem = ({ project }) => {
 
             <div className="window-body has-space window-body-replace">
               <figure>
-                <Image className="grid-img" src={project.image} alt={project.name} />
+                <Image width={500} height={500} loading="lazy" className="grid-img" src={project.image} alt={project.name} />
               </figure>
               <div className="card-body p-0">
 
