@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
     return (
         <>
-            <ul role="menubar" className="can-hover">
+            <ul role="menubar" className="can-hover menu-items">
 
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/">Home</Link></li>
 
