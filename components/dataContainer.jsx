@@ -10,11 +10,11 @@ const DataContainer = () => {
         <div className="window active mb-5">
           <div className="title-bar">
             <div className="title-bar-text">C:\Projects</div>
-            <div className="title-bar-controls">
+            {/*<div className="title-bar-controls">
               <button aria-label="Minimize"></button>
               <button aria-label="Maximize"></button>
               <button aria-label="Close"></button>
-            </div>
+            </div>*/}
           </div>
         </div>
         <DataList projects={projectsData.projects} />

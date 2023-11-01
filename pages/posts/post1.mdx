@@ -1,0 +1,30 @@
+import MDXWrapper from '../../components/MDXWrapper';
+import Head from 'next/head';
+
+<MDXWrapper>
+    <Head>
+        <title></title>
+    </Head>
+
+
+<div className="p-2 pt-6 pb-6 container m-auto">
+## Code Hike Blocks Demo
+
+<CH.Code rows={4} >
+
+```js consoleLog.js
+let name = "My name is Julian";
+console.log(name, "Hello World!");
+```
+
+```css theme.css
+.dark-mode {
+    background-color: #333;
+    color: #ccc;
+}
+```
+
+</CH.Code>
+
+</div>
+</MDXWrapper>

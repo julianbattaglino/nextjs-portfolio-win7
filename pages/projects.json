@@ -56,15 +56,15 @@
             "repo": "https://github.com/julianbattaglino/nublose-app"
         },
         {
-            "id": "next-js-quotes-app",
-            "name": "Quotes - Next.js App",
-            "extract": "Next.js Quotes webapp",
+            "id": "next-js-text-transformer-app",
+            "name": "Text Transformer - Next.js App",
+            "extract": "Text Transformer - Next.js webapp",
             "description": "",
             "location": "",
             "category": "Next.js",
-            "image": "/portfolio/quotes.webp",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "image": "/portfolio/text-transformer.webp",
+            "deployed": "https://text-transformer-blue.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/text-transformer"
         }
     ]
 }

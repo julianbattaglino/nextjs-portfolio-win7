@@ -1,5 +1,6 @@
 import './styles.css';
 import "7.css/dist/7.css";
+import "@code-hike/mdx/dist/index.css"
 import { Inter } from 'next/font/google';
 
 import AOS from "aos";

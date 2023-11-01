@@ -1,0 +1,38 @@
+import MDXWrapper from '../../components/MDXWrapper';
+import Head from 'next/head';
+
+<MDXWrapper>
+    <Head>
+        <title>CSS Text Gradient</title>
+        <meta name="description" content="How to Create a Pure CSS Text Gradient. HTML5 & CSS3" />
+    </Head>
+
+<div className="p-2 pt-6 pb-6 container m-auto">
+
+## How to Create a Pure CSS Text Gradient
+
+<h2 className="h2-gradient"><span class="span-gradient">Text Gradient.</span></h2>
+
+```html text.html
+<h2><span class="text-gradient">Text Gradient.</span></h2>
+```
+
+```css text.css
+            
+.h2-gradient {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+.span-gradient {
+    background: linear-gradient(90.13deg,rgba(201, 111, 160, 1) 4.27%,rgba(107, 128, 210, 1) 35.45%,rgba(89, 187, 204, 1) 66.11%,rgba(162, 175, 114, 1) 96.25%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+```
+
+</div>
+</MDXWrapper>

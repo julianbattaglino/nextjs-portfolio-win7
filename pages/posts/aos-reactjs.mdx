@@ -1,0 +1,66 @@
+import MDXWrapper from '../../components/MDXWrapper';
+import Head from 'next/head';
+import Image from 'next/image';
+
+<MDXWrapper>
+    <Head>
+        <title>Aos React.js</title>
+        <meta name="description" content="How to Create on scroll animations with react.js" />
+    </Head>
+
+<div className="p-2 pt-6 pb-6 container m-auto">
+
+## How to use AOS scroll animations effect in React.js
+
+Hi, I am Julian Battaglino & today I will share a simple but powerful animation effect on React Js . Its called AOS animations.
+
+Its simple to use like eating food & I’m not joking.
+
+lets start form installation.
+
+```jsx
+import AOS from "aos";
+import "aos/dist/aos.css";
+```
+
+#### Then you need to initialize aos like this
+
+```jsx
+useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  ```
+
+With functional components and hooks (useEffect) I did like this:
+
+```jsx app.jsx
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+function App() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+  return (
+    // your components
+  );
+}
+export default App;
+  ```
+
+Now comes the best part . you need to go here [michalsnik.github.io/aos](https://michalsnik.github.io/aos "Aos Animate on scroll website").
+ & copy the animation into your div/image/paragraph/header anywhere you want like this. only the data-aos part.
+
+```jsx
+<div data-aos="fade-up"></div>  
+```
+
+I think it will help you to create simple scroll animation effect on your project.
+
+If you need more detailed information please visit the AOS github repo [here](https://github.com/michalsnik/aos "AOS Animate on scroll github repository").
+
+</div>
+
+</MDXWrapper>

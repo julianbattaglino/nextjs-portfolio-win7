@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+.h2-gradient {
+    font-size: 64px;
+    font-weight: 700;
+    color: #1d1d1f;
+    text-align: center;
+}
+
+.span-gradient {
+    background: linear-gradient(90.13deg,rgba(201, 111, 160, 1) 4.27%,rgba(107, 128, 210, 1) 35.45%,rgba(89, 187, 204, 1) 66.11%,rgba(162, 175, 114, 1) 96.25%);    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 body {}
 
@@ -10,6 +22,7 @@ body {}
 }
 
 p {
+    font-size: 14px;
     color: #4a5568;
 }
 
@@ -55,6 +68,11 @@ ul.tree-view {
     font-size: 14px;
     font-weight: 500;
     color: #333;
+    padding: 4px 10px 4px 32px;
+}
+
+.menu-item {
+    padding: 4px 10px 4px 32px;
 }
 
 ul [role="menuitem"] a {
@@ -134,7 +152,7 @@ span.underline-nice {
     grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
     justify-content: center;
     align-items: center;
-    row-gap: 50px;
+    gap: 15px;
     justify-items: center;
     width: 75%;
     margin: auto;
@@ -167,7 +185,7 @@ img.avatar {
 
 .body-file-explorer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(64px, 1fr));
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
@@ -175,6 +193,18 @@ img.avatar {
 
 .window-body>* {
     text-align: inherit;
+}
+
+.img-grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+/*** Homer Page ***/
+.homer-img {
+    margin: 0 auto;
+    display: block;
 }
 
 /* PAGE PROJECTS */
@@ -193,7 +223,7 @@ footer a {
     color: #333;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .intro-container {
         padding: 0 25px;
     }
@@ -217,6 +247,10 @@ footer a {
     }
     .aboutme-modal {
         max-width: 100%;
+    }
+    ul[role=menu] [role=menuitem]>[role=menu] {
+        left: 60% !important;
+        top: -4px;
     }
 
 }
