@@ -11,7 +11,25 @@ const HomePage = () => {
         <>
             <Head>
                 <title>Juli4n B4tt4glin0 | Portfolio</title>
-                <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet" />
+                <meta name="description" content="Julian Battaglino, Front End Developer - Portfolio personal" />
+
+                {/* Open Graph meta tags */}
+                <meta property="og:locale" content="es" />
+                <meta property="og:type" content="website" />
+                <meta property="og:title" content="Juli4n B4tt4glin0 | Portfolio" />
+                <meta property="og:description"
+                    content="Julian Battaglino, Front End Developer - Portfolio personal" />
+                <meta property="og:url" content="https://www.julianbattaglino.com.ar" />
+                <meta property="og:site_name" content="Juli4n B4tt4glin0 | Portfolio" />
+                <meta property="og:image" content="/julian-battaglino-pic.webp" />
+
+                {/* Twitter meta tags */}
+                <meta name="twitter:title" content="Juli4n B4tt4glin0 | Portfolio" />
+                <meta name="twitter:description"
+                    content="Julian Battaglino, Front End Developer - Portfolio personal" />
+                <meta name="twitter:image" content="/julian-battaglino-pic.webp" />
+                <meta property="twitter:url" content="https://www.julianbattaglino.com.ar" />
+
             </Head>
 
             {/* Windows 7 Top Bar */}
@@ -31,7 +49,7 @@ const HomePage = () => {
                         <div className="intro-container">
                             <h1 className="main-title pt-5" data-aos="zoom-in"><span className="underline-nice">Julian Battaglino</span></h1>
                             <h2 className="subtitle" data-aos="zoom-in">Front End Web Developer</h2>
-                            
+
                             {/*<div className="icon-container">
                                 <Link href="https://github.com/julianbattaglino" target="_blank" rel="noreferrer" className="icon-link">
                                     <SlSocialGithub className="icon mx-2" />
