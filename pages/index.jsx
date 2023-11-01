@@ -48,6 +48,8 @@ const HomePage = () => {
                 <meta name="twitter:image" content="/julian-battaglino-pic.webp" />
                 <meta property="twitter:url" content="https://www.julianbattaglino.com.ar" />
 
+                <meta name="google-site-verification" content="B6v1kmJBHceOOGToEXrLdWYYTqe_WIMgaD2R9swZ4eY" />
+
             </Head>
 
             {/* Windows 7 Top Bar */}
