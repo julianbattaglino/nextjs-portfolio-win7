@@ -25,7 +25,7 @@ const DataItem = ({ project }) => {
               <div className="card-body p-0">
 
                 <ul className="tree-view">
-                  <li className="pt-2">{project.extract}</li>
+                  <li className="pt-2 text-base">{project.extract}</li>
                   <li className="pt-2 pb-2">{project.category} </li>
                 </ul>
 

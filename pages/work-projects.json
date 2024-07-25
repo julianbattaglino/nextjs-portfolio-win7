@@ -1,0 +1,48 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Le Coup de Foudre",
+            "extract": "A Luxury Bespoke Agency based in Paris",
+            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
+            "location": "",
+            "category": "One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
+            "deployed": "https://google-sheet-fetch-api.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+        },
+        {
+            "id": "2",
+            "name": "Le Coup de Foudre",
+            "extract": "A Luxury Bespoke Agency based in Paris",
+            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
+            "location": "",
+            "category": "One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
+            "deployed": "https://google-sheet-fetch-api.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+        },
+        {
+            "id": "3",
+            "name": "Le Coup de Foudre",
+            "extract": "A Luxury Bespoke Agency based in Paris",
+            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
+            "location": "",
+            "category": "One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
+            "deployed": "https://google-sheet-fetch-api.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+        },
+        {
+            "id": "4",
+            "name": "Le Coup de Foudre",
+            "extract": "A Luxury Bespoke Agency based in Paris",
+            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
+            "location": "",
+            "category": "One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
+            "deployed": "https://google-sheet-fetch-api.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+        }
+    ]
+}

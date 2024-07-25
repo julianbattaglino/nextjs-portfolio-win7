@@ -1,8 +1,5 @@
 import React from 'react';
 import Head from 'next/head';
-import { SlSocialLinkedin, SlSocialGithub, SlDoc } from "react-icons/sl";
-import { ImFilePdf } from "react-icons/im";
-import Link from 'next/link';
 import Image from 'next/image';
 
 const HomePage = () => {

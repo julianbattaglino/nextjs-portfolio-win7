@@ -30,8 +30,8 @@
             "location": "",
             "category": "JavaScript",
             "image": "/portfolio/high-fidelity-store.webp",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "deployed": "https://high-fidelity-store.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/High-Fidelity-Store-Final-Version-"
         },
         {
             "id": "movimiento-evita-interactive-map",
@@ -65,6 +65,30 @@
             "image": "/portfolio/text-transformer.webp",
             "deployed": "https://text-transformer-blue.vercel.app/",
             "repo": "https://github.com/julianbattaglino/text-transformer"
+        },
+        {
+            "id": "react-rick-and-morty-webapp",
+            "name": "The Rick and Morty - CRA Webapp",
+            "extract": "The Rick and Morty - CRA Webapp",
+            "description": "",
+            "location": "",
+            "category": "react.js",
+            "image": "/portfolio/rick-morty.webp",
+            "deployed": "https://react-rick-and-morty-app.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/react-rick-and-morty"
+        },
+        {
+            "id": "api-dolar-blue-vanillajs",
+            "name": "Api Dolar Argentina",
+            "extract": "Api Dolar Argentina",
+            "description": "",
+            "location": "",
+            "category": "Javascript",
+            "image": "/portfolio/api-dolar.webp",
+            "deployed": "https://api-dolar-blue-vanillajs.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/api-dolar-blue-vanillajs"
         }
     ]
 }
+
+
