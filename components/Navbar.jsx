@@ -34,17 +34,21 @@ const Navbar = () => {
                             </ul>
                         </li>
 
+                        {/* 
+
                         <li role="menuitem">
-                        <Link className="menu-item" href="/homer">
+                            <Link className="menu-item" href="/homer">
                                 Homer J Simpson <span>Esc+Ctrl+Pgup</span>
-                                </Link>
+                            </Link>
                         </li>
+
+                        */}
 
                     </ul>
                 </li>
 
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about"> About</Link></li>
-                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/personal-projects">Projects</Link></li>
+                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/projects">Projects</Link></li>
 
             </ul>
         </>

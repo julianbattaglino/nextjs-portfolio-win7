@@ -1,15 +1,15 @@
 {
     "projects": [
         {
-            "id": "fetch-data-from-google-sheet",
-            "name": "Fetch Data From Google Sheet",
-            "extract": "Simple example for fetching data from Google Sheet",
-            "description": "Simple example for fetching data from Google Sheet, using paparse",
+            "id": "1",
+            "name": "$Dolar & IPC",
+            "extract": "Fetch data from external api",
+            "description": "Fetch data from external api",
             "location": "",
-            "category": "JavaScript",
-            "image": "/portfolio/google-sheet-fetch.webp",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "category": "Next.js",
+            "image": "/portfolio/dolar-ipc.webp",
+            "deployed": "https://dolar-ipc-app.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/nextjs-dolar-ipc"
         },
         {
             "id": "react-js-marcelo-kopp",
@@ -17,29 +17,18 @@
             "extract": "React.js e-commerce - Marcelo Kopp. ",
             "description": "React.js e-commerce - E-commerce Marcelo Kopp - Woodcut artist. Chakra UI v2.2.3 (app ui) - React Toastify V9.0.8 (alerts) - Firebase V9.9.3 (render products from firebase/firestore collections & addDoc for customer orders) - React-Router-Dom V6.3.0 (for dynamic routing in a web app)",
             "location": "",
-            "category": "React.js",
+            "category": "React.js, CRA",
             "image": "/portfolio/react-eccomerce-marcelo-kopp.webp",
             "deployed": "https://react-eccomerce-marcelo-kopp.vercel.app/",
             "repo": "https://github.com/julianbattaglino/react-eccomerce"
-        },
-        {
-            "id": "high-fidelity-store",
-            "name": "High Fidelity Store",
-            "extract": "Vanilla js e-commerce whatsapp checkout order",
-            "description": "Vanilla js e-commerce whatsapp checkout order",
-            "location": "",
-            "category": "JavaScript",
-            "image": "/portfolio/high-fidelity-store.webp",
-            "deployed": "https://high-fidelity-store.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/High-Fidelity-Store-Final-Version-"
         },
         {
             "id": "movimiento-evita-interactive-map",
             "name": "Movimiento Evita Interactive Map",
             "extract": "Lefleat.js interactive map whit layers & filters",
             "description": "Lefleat.js interactive map whit layers & filters. Wp rest api.",
-            "location": "React.js",
-            "category": "JavaScript",
+            "location": "",
+            "category": "React.js, CRA",
             "image": "/portfolio/movimiento-evita-azul.webp",
             "deployed": "https://movimiento-evita-azul.vercel.app/",
             "repo": "https://github.com/julianbattaglino/react-movimiento-evita"
@@ -65,28 +54,6 @@
             "image": "/portfolio/text-transformer.webp",
             "deployed": "https://text-transformer-blue.vercel.app/",
             "repo": "https://github.com/julianbattaglino/text-transformer"
-        },
-        {
-            "id": "react-rick-and-morty-webapp",
-            "name": "The Rick and Morty - CRA Webapp",
-            "extract": "The Rick and Morty - CRA Webapp",
-            "description": "",
-            "location": "",
-            "category": "react.js",
-            "image": "/portfolio/rick-morty.webp",
-            "deployed": "https://react-rick-and-morty-app.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/react-rick-and-morty"
-        },
-        {
-            "id": "api-dolar-blue-vanillajs",
-            "name": "Api Dolar Argentina",
-            "extract": "Api Dolar Argentina",
-            "description": "",
-            "location": "",
-            "category": "Javascript",
-            "image": "/portfolio/api-dolar.webp",
-            "deployed": "https://api-dolar-blue-vanillajs.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/api-dolar-blue-vanillajs"
         }
     ]
 }

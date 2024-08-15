@@ -30,14 +30,8 @@ const ProjectDetails = ({ project }) => {
         <div className="pt-4 pb-4 px-2">
           <Link href="/projects">
             <button className="me-2" data-aos="zoom-in">
-              Go to Personal projects
+              Back to projects
             </button>
-            <Link href="/work-projects">
-            <button className="" data-aos="zoom-in">
-              Go to Work projects
-            </button>
-          </Link>
-
           </Link>
         </div>
 
