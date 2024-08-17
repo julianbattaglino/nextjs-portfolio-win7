@@ -13,8 +13,12 @@ const DataItem = ({ project }) => {
             <div className="title-bar">
               <div className="title-bar-text">Project: {project.name}</div>
               <div className="title-bar-controls">
+
+                {/* Close and minimaze buttons 
                 <button aria-label="Minimize"></button>
                 <button aria-label="Close"></button>
+                */}
+                
               </div>
             </div>
 
@@ -26,7 +30,7 @@ const DataItem = ({ project }) => {
 
                 <ul className="tree-view">
                 <li className="pt-2 text-base font-bold">{project.name}</li>
-                  <li className="pt-2 text-sm">{project.extract}</li>
+                  <li className="pt-2 text-sm">{project.location}</li>
                   <li className="pt-2 pb-2 text-xs">{project.category} </li>
                 </ul>
 

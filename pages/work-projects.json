@@ -1,48 +1,125 @@
 {
     "projects": [
         {
-            "id": "1",
-            "name": "Le Coup de Foudre",
-            "extract": "A Luxury Bespoke Agency based in Paris",
-            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
-            "location": "",
-            "category": "One Page, JavaScript, CSS, HTML5",
-            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "id": "100",
+            "name": "Arcos 4259",
+            "extract": "Extract here.",
+            "description": "Arcos4259 es una landing page creada para destacar las características clave de un proyecto inmobiliario. Su diseño minimalista y enfocado permite a los visitantes obtener la información esencial de manera rápida y clara, optimizando la experiencia del usuario. Es una landing page diseñada para presentar un proyecto inmobiliario de manera profesional y efectiva. Utiliza tecnologías como HTML5, CSS3, JavaScript, jQuery, y Bootstrap para ofrecer una experiencia de usuario fluida y responsiva. La página destaca por su diseño limpio y moderno, optimizado para la conversión de visitantes en clientes potenciales.",
+            "location": "CABA, Buenos Aires, Argentina.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2023/Arcos-4259-V2-2023.png",
+            "deployed": "https://arcos4259.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/arcos4259-v2"
         },
         {
-            "id": "2",
-            "name": "Le Coup de Foudre",
-            "extract": "A Luxury Bespoke Agency based in Paris",
-            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
-            "location": "",
-            "category": "One Page, JavaScript, CSS, HTML5",
-            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "id": "101",
+            "name": "Mohawk at Wynwood",
+            "extract": "Extract here.",
+            "description": "Mohawk at Wynwood es un ambicioso proyecto inmobiliario ubicado en el corazón del vibrante distrito artístico de Wynwood, Miami. Este desarrollo ofrece una experiencia de vida única, combinando arquitectura moderna, comodidades de lujo y una ubicación privilegiada.",
+            "location": "Miami, EE.UU.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2023/mohawk-at-wynwood.png",
+            "deployed": "https://mohawk-at-wynwood.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/mohawk-at-wynwood"
         },
         {
-            "id": "3",
-            "name": "Le Coup de Foudre",
-            "extract": "A Luxury Bespoke Agency based in Paris",
-            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
-            "location": "",
-            "category": "One Page, JavaScript, CSS, HTML5",
-            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "id": "102",
+            "name": "Mangrove At Dania Beach",
+            "extract": "Extract here.",
+            "description": "Situado en Dania Beach, a poca distancia de Miami, Mangrove combina naturaleza y vida urbana en una propuesta única. Bajo la dirección de Rilea Group, con una destacada trayectoria en el desarrollo inmobiliario de la región, Mangrove se erige como una comunidad residencial donde la naturaleza es protagonista. Mangrove no solo ofrece residencias modernas y cómodas, sino que también prioriza la integración armónica con su entorno. Invitamos a los inversores a ser parte de este proyecto innovador que combina diseño contemporáneo con un profundo respeto por la naturaleza.",
+            "location": "Miami, EE.UU.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2023/Mangrove-2023.png",
+            "deployed": "https://mangrove-at-dania-beach.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/mangrove-at-dania-beach"
         },
         {
-            "id": "4",
-            "name": "Le Coup de Foudre",
-            "extract": "A Luxury Bespoke Agency based in Paris",
-            "description": "Le Coup de Foudre A Luxury Bespoke Agency based in Paris",
-            "location": "",
-            "category": "One Page, JavaScript, CSS, HTML5",
-            "image": "/portfolio/work-projects/2024/LeCoupdeFoudre.png",
-            "deployed": "https://google-sheet-fetch-api.vercel.app/",
-            "repo": "https://github.com/julianbattaglino/GoogleSheet-Fetch-Api"
+            "id": "103",
+            "name": "Netco Digital Content",
+            "extract": "Extract here.",
+            "description": "Soluciones estratégicas de marketing y comunicación para la industria inmobiliaria",
+            "location": "CABA, Buenos Aires, Argentina.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2023/Netco-Digital-Content.png",
+            "deployed": "https://netco-digital-content.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/netco-digital-content"
+        },
+        {
+            "id": "104",
+            "name": "Sense 28 Edgewater",
+            "extract": "Extract here.",
+            "description": "Bienvenidos a este nuevo proyecto que presenta Edgewater 28 LLC. Somos una empresa que busca la oportunidad y visión de crecimiento. Miami es hoy un importante centro de negocios, y una de las ciudades de mayor crecimiento poblacional en los Estados Unidos, que está provocando un boom inmobiliario sin precedentes. En el año 2019 a través de diversos análisis de mercado detectamos un área que estaba convirtiéndose en un centro de arte, diseño, y vida nocturna: el eje Design district - Edgewater - Wynwood.",
+            "location": "Miami, Florida, EE.UU.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2022/Sense-28-Edgewater.png",
+            "deployed": "https://sense28.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/sense28"
+        },
+        {
+            "id": "105",
+            "name": "Sense Libertador",
+            "extract": "Extract here.",
+            "description": "Bienvenidos a este nuevo proyecto que presenta Edgewater 28 LLC. Somos una empresa que busca la oportunidad y visión de crecimiento. Miami es hoy un importante centro de negocios, y una de las ciudades de mayor crecimiento poblacional en los Estados Unidos, que está provocando un boom inmobiliario sin precedentes. En el año 2019 a través de diversos análisis de mercado detectamos un área que estaba convirtiéndose en un centro de arte, diseño, y vida nocturna: el eje Design district - Edgewater - Wynwood.",
+            "location": "Miami, Florida, EE.UU.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2020/Sense-Libertador.png",
+            "deployed": "https://sense-libertador.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/sense-libertador"
+        },
+        {
+            "id": "106",
+            "name": "Sense Manantiales",
+            "extract": "Extract here.",
+            "description": "Bienvenidos a este nuevo proyecto que presenta Edgewater 28 LLC. Somos una empresa que busca la oportunidad y visión de crecimiento. Miami es hoy un importante centro de negocios, y una de las ciudades de mayor crecimiento poblacional en los Estados Unidos, que está provocando un boom inmobiliario sin precedentes. En el año 2019 a través de diversos análisis de mercado detectamos un área que estaba convirtiéndose en un centro de arte, diseño, y vida nocturna: el eje Design district - Edgewater - Wynwood.",
+            "location": "Miami, Florida, EE.UU.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2021/Sense-Manantiales.png",
+            "deployed": "https://sense-manantiales.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/sense-manantiales"
+        },
+        {
+            "id": "107",
+            "name": "HA Emprendimientos",
+            "extract": "Extract here.",
+            "description": "Bienvenidos a este nuevo proyecto que presenta Edgewater 28 LLC. Somos una empresa que busca la oportunidad y visión de crecimiento. Miami es hoy un importante centro de negocios, y una de las ciudades de mayor crecimiento poblacional en los Estados Unidos, que está provocando un boom inmobiliario sin precedentes. En el año 2019 a través de diversos análisis de mercado detectamos un área que estaba convirtiéndose en un centro de arte, diseño, y vida nocturna: el eje Design district - Edgewater - Wynwood.",
+            "location": "Béccar, Provincia de Buenos Aires, Argentina.",
+            "category": "Real Estate, website, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2022/HA-Emprendimientos-V2.png",
+            "deployed": "https://ha-emprendimientos.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/ha-web"
+        },
+        {
+            "id": "108",
+            "name": "Gelly Desarrollos Inmobiliarios",
+            "extract": "Extract here.",
+            "description": "Gelly/FS se destaca como una empresa especializada en la compra y venta de locales, terrenos, edificios y apartamentos. Respaldada por una amplia experiencia en el sector, la empresa se distingue por su firme compromiso con la excelencia y por ofrecer oportunidades de inversión únicas.",
+            "location": "Madrid, Spain.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2023/Gelly.png",
+            "deployed": "https://gelly-web.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/gelly-web"
+        },
+        {
+            "id": "109",
+            "name": "Curma Desarrollos Inmobiliarios",
+            "extract": "Extract here.",
+            "description": "empresa especializada en el desarrollo de Proyectos inmobiliarios, comprometida con la excelencia y garantizando el máximo valor de su inversión.",
+            "location": "CABA, Provincia de Buenos Aires, Argentina.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2021/Curma-Desarrollos-Inmobiliarios.png",
+            "deployed": "https://curma-sa.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/curma"
+        },
+        {
+            "id": "110",
+            "name": "Buena Vista Carmelo",
+            "extract": "Extract here.",
+            "description": "La Familia Bonomi, reconocida en el mundo del diseño, la moda y la hotelería, está al mando del proyecto. Con marcas destacadas como Kosiuko, Herencia Custom Garage y Casa chic, el grupo creativo aporta su experiencia y visión en cada aspecto del proyecto. Además, Buena Vista cuenta con excelentes amenities, como canchas de tenis, playas, seguridad 24 horas, un helipuerto y un puerto marítimo para 80 embarcaciones, restaurante y el prestigioso hotel Casa Chic. Así mismo, cuenta una bodega con viñedos que dan frutos a los exquisitos vinos Buena Vista.",
+            "location": "Carmelo, Colonia, Uruguay.",
+            "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
+            "image": "/portfolio/work-projects/2023/Buenas-Vista-Carmelo-2023.png",
+            "deployed": "https://buena-vista-carmelo.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/buena-vista-carmelo"
         }
     ]
 }

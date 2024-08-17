@@ -13,8 +13,12 @@ const DataItem = ({ project }) => {
             <div className="title-bar">
               <div className="title-bar-text">Project: {project.name}</div>
               <div className="title-bar-controls">
+
+                {/* Close and minimaze buttons 
                 <button aria-label="Minimize"></button>
                 <button aria-label="Close"></button>
+                */}
+                
               </div>
             </div>
 

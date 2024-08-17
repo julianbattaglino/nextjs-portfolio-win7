@@ -38,12 +38,9 @@ a:hover {
     text-align: center;
 }
 
-.max-width {
-    max-width: 350px;
-}
 
 .items-grid {
-    grid-gap: 1rem;
+    grid-gap: 1.5rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
@@ -213,6 +210,12 @@ img.avatar {
     border: none !important;
     box-shadow: none !important;
 }
+
+/* DETAIL PROJECTS */
+p.project-detail-description {
+    line-height: 1.4em;
+}
+
 
 /* FOOTER */
 footer {

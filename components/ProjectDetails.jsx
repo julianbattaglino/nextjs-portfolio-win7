@@ -1,8 +1,11 @@
 import Head from "next/head";
 import Link from "next/link";
 import React from "react";
+import { Inter } from 'next/font/google'
 import { SiGithub } from "react-icons/si";
 import { GrDeploy } from "react-icons/gr";
+
+const inter = Inter({ subsets: ['latin'] })
 
 const ProjectDetails = ({ project }) => {
   console.log(project);
@@ -27,6 +30,8 @@ const ProjectDetails = ({ project }) => {
           </div>
         </div>
 
+        {/* Breadcrumb
+
         <div className="pt-4 pb-4 px-2">
           <Link href="/projects">
             <button className="me-2" data-aos="zoom-in">
@@ -34,6 +39,8 @@ const ProjectDetails = ({ project }) => {
             </button>
           </Link>
         </div>
+
+        */}
 
         <div className="grid md:grid-cols-3 gap-4 shadow-xl p-2">
 
@@ -48,7 +55,7 @@ const ProjectDetails = ({ project }) => {
                 <div className="title-bar-text">About this project: </div>
               </div>
               <div className="window-body has-space window-body-replace">
-                <p>{project.description}</p>
+                <p className={`${inter.className} project-detail-description`}>{project.description}</p>
 
                 <div className="pt-4">
                   <Link href={project.deployed} target="blank">

@@ -49,6 +49,7 @@ const Navbar = () => {
 
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about"> About</Link></li>
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/projects">Projects</Link></li>
+                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/work-projects">Work</Link></li>
 
             </ul>
         </>
