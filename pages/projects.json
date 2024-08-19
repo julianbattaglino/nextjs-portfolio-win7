@@ -12,7 +12,7 @@
             "repo": "https://github.com/julianbattaglino/nextjs-dolar-ipc"
         },
         {
-            "id": "react-js-marcelo-kopp",
+            "id": "2",
             "name": "React.js Marcelo Kopp",
             "extract": "React.js e-commerce - Marcelo Kopp. ",
             "description": "React.js e-commerce - E-commerce Marcelo Kopp - Woodcut artist. Chakra UI v2.2.3 (app ui) - React Toastify V9.0.8 (alerts) - Firebase V9.9.3 (render products from firebase/firestore collections & addDoc for customer orders) - React-Router-Dom V6.3.0 (for dynamic routing in a web app)",
@@ -23,7 +23,7 @@
             "repo": "https://github.com/julianbattaglino/react-eccomerce"
         },
         {
-            "id": "movimiento-evita-interactive-map",
+            "id": "3",
             "name": "Movimiento Evita Interactive Map",
             "extract": "Lefleat.js interactive map whit layers & filters",
             "description": "Lefleat.js interactive map whit layers & filters. Wp rest api.",
@@ -45,7 +45,7 @@
             "repo": "https://github.com/julianbattaglino/nublose-app"
         },
         {
-            "id": "next-js-text-transformer-app",
+            "id": "4",
             "name": "Text Transformer - Next.js App",
             "extract": "Text Transformer - Next.js webapp",
             "description": "",
@@ -54,6 +54,28 @@
             "image": "/portfolio/text-transformer.webp",
             "deployed": "https://text-transformer-blue.vercel.app/",
             "repo": "https://github.com/julianbattaglino/text-transformer"
+        },
+        {
+            "id": "next-js-giphy",
+            "name": "Giphy Api Gifs - Next.js App",
+            "extract": "Giphy Api Gifs - Next.js App",
+            "description": "",
+            "location": "",
+            "category": "Next.js",
+            "image": "/portfolio/nextjs-giphy-api.webp",
+            "deployed": "https://nextjs-giphy-api.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/nextjs-giphy-api"
+        },
+        {
+            "id": "5",
+            "name": "Rick and Morty App",
+            "extract": "Rick and Morty React App CRA (Create React APP)",
+            "description": "",
+            "location": "",
+            "category": "React.js CRA",
+            "image": "/portfolio/react-rick-and-morty-app.webp",
+            "deployed": "https://react-rick-and-morty-app.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/react-rick-and-morty"
         }
     ]
 }

@@ -71,7 +71,7 @@
             "name": "Sense Manantiales",
             "extract": "Extract here.",
             "description": "Bienvenidos a este nuevo proyecto que presenta Edgewater 28 LLC. Somos una empresa que busca la oportunidad y visión de crecimiento. Miami es hoy un importante centro de negocios, y una de las ciudades de mayor crecimiento poblacional en los Estados Unidos, que está provocando un boom inmobiliario sin precedentes. En el año 2019 a través de diversos análisis de mercado detectamos un área que estaba convirtiéndose en un centro de arte, diseño, y vida nocturna: el eje Design district - Edgewater - Wynwood.",
-            "location": "Miami, Florida, EE.UU.",
+            "location": "Manantiales, Maldonado, Uruguay.",
             "category": "Real Estate, One Page, JavaScript, CSS, HTML5",
             "image": "/portfolio/work-projects/2021/Sense-Manantiales.png",
             "deployed": "https://sense-manantiales.vercel.app/",
@@ -81,7 +81,7 @@
             "id": "107",
             "name": "HA Emprendimientos",
             "extract": "Extract here.",
-            "description": "Bienvenidos a este nuevo proyecto que presenta Edgewater 28 LLC. Somos una empresa que busca la oportunidad y visión de crecimiento. Miami es hoy un importante centro de negocios, y una de las ciudades de mayor crecimiento poblacional en los Estados Unidos, que está provocando un boom inmobiliario sin precedentes. En el año 2019 a través de diversos análisis de mercado detectamos un área que estaba convirtiéndose en un centro de arte, diseño, y vida nocturna: el eje Design district - Edgewater - Wynwood.",
+            "description": "Desde 2009, construimos, desarrollamos y comercializamos priorizando la experiencia del cliente. Nuestras obras de diferentes tipos y magnitudes tienen diseños únicos y materiales de calidad. Apostamos por las nuevas tecnologías y representamos un avance global en materia constructiva.",
             "location": "Béccar, Provincia de Buenos Aires, Argentina.",
             "category": "Real Estate, website, JavaScript, CSS, HTML5",
             "image": "/portfolio/work-projects/2022/HA-Emprendimientos-V2.png",
@@ -120,6 +120,17 @@
             "image": "/portfolio/work-projects/2023/Buenas-Vista-Carmelo-2023.png",
             "deployed": "https://buena-vista-carmelo.vercel.app/",
             "repo": "https://github.com/julianbattaglino/buena-vista-carmelo"
+        },
+        {
+            "id": "111",
+            "name": "Seminario Escuchandonos",
+            "extract": "Extract here.",
+            "description": "",
+            "location": "Claremont, California, EE.UU.",
+            "category": "React.js, Create React App, React Helmet, Styled Components.",
+            "image": "/portfolio/work-projects/2022/escuchandonos.webp",
+            "deployed": "https://react-escuchandonos.vercel.app/",
+            "repo": "https://github.com/julianbattaglino/react-escuchandonos"
         }
     ]
 }

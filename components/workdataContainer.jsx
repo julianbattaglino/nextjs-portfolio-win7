@@ -6,7 +6,7 @@ import projectsData from '../pages/work-projects.json';
 const DataContainer = () => {
   return (
     <>
-      <div className="p-5">
+      <div className="p-2">
         <div className="window active mb-5">
           <div className="title-bar">
             <div className="title-bar-text">C:\Projects</div>

@@ -56,6 +56,9 @@ const ProjectDetails = ({ project }) => {
               </div>
               <div className="window-body has-space window-body-replace">
                 <p className={`${inter.className} project-detail-description`}>{project.description}</p>
+                {/* Tooltip Win 7
+                <div className="mt-5 mb-5 mx-3" role="tooltip"><p className={`${inter.className} project-detail-description`}>{project.description}</p></div>
+                */}
 
                 <div className="pt-4">
                   <Link href={project.deployed} target="blank">
