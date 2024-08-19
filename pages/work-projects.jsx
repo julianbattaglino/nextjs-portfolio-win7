@@ -8,7 +8,7 @@ const Projects = () => {
     return (
         <>
             <Head>
-                <title>Julian Battaglino Projects Portfolio</title>
+                <title>Julian Battaglino - Work</title>
             </Head>
             <DataContainer />
         </>
