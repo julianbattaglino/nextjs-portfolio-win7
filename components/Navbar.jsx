@@ -7,7 +7,9 @@ const Navbar = () => {
 
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/">Home</Link></li>
 
-                <li role="menuitem" tabIndex="0" aria-haspopup="true">
+
+
+                {/* <li role="menuitem" tabIndex="0" aria-haspopup="true">
                     Files
                     <ul role="menu">
 
@@ -33,7 +35,7 @@ const Navbar = () => {
 
                             </ul>
                         </li>
-
+*/}
                         {/* 
 
                         <li role="menuitem">
@@ -42,14 +44,13 @@ const Navbar = () => {
                             </Link>
                         </li>
 
-                        */}
+                        
 
                     </ul>
                 </li>
-
+*/}
                 <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/about"> About</Link></li>
-                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/projects">Projects</Link></li>
-                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/work-projects">Work</Link></li>
+                <li role="menuitem" tabIndex="0" aria-haspopup="true"><Link href="/work-projects">Projects</Link></li>
 
             </ul>
         </>

@@ -7,7 +7,7 @@ const DataItem = ({ project }) => {
   return (
 
     <>
-      <Link href={`/project/${project.id}`}>
+      <Link href={`/project/work-${project.id}`}>
         <div className="" data-aos="zoom-in">
           <div className="window glass active">
             <div className="title-bar">

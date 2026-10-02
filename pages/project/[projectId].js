@@ -8,9 +8,11 @@ const DynamicItem = () => {
   const router = useRouter();
   const { projectId } = router.query;
 
-  // Encuentra el proyecto correspondiente en base al ID
-  const project = projects.projects.find((project) => project.id === projectId) ||
-                  workProjects.projects.find((project) => project.id === projectId);
+  const isWorkProject = typeof projectId === "string" && projectId.startsWith("work-");
+  const project = isWorkProject
+    ? workProjects.projects.find((project) => project.id === projectId.slice(5))
+    : projects.projects.find((project) => project.id === projectId) ||
+      workProjects.projects.find((project) => project.id === projectId);
 
   return (
     <>
